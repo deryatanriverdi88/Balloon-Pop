@@ -78,3 +78,15 @@ svg{
 	top: 1.5px;
 }
 
+button{
+	position: absolute;
+	left: 80vw;
+	top: 40vh;
+	outline: none;
+	width: 13%;
+	max-width: 150px;
+    height: 10vh;
+	border-radius: 10%;
+	box-shadow: -1px -1px 2px inset #aab1b4;
+	font-size: 1rem;
+}
