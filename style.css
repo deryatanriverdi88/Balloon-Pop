@@ -59,7 +59,7 @@ svg{
 	display: inline-block;
 	width: 0;
 	height: 0;
-	border-width: 3.3px 20px 3.3px 0px;
+	border-width: 3.5px 20px 3.5px 0px;
 	border-color: transparent grey transparent transparent;
 	border-style: solid;
 	position: absolute;
