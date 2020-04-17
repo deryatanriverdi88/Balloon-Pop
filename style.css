@@ -44,3 +44,37 @@ svg{
 	transform: rotate(30deg);
 }
 
+.needle{
+	width: 150px;
+	height: 7px;
+	background: grey;
+	position: absolute;
+	left: 800px;
+	top: 200px;
+	border-radius: 0 10px 10px 0;
+}
+
+.needle:before{
+	content: "";
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-width: 3.3px 20px 3.3px 0px;
+	border-color: transparent grey transparent transparent;
+	border-style: solid;
+	position: absolute;
+	left: -20px;
+}
+
+.needle:after{
+	content: "";
+	display: inline-block;
+	width: 8px;
+	height: 3px;
+	background: #f9f0ae;
+	border-radius: 40%;
+	position: absolute;
+	left: 135px;
+	top: 1.5px;
+}
+
