@@ -5,9 +5,9 @@ let fourthSvg = document.querySelector('.fourth-svg');
 let content = document.querySelector('.content');
 let needle = document.querySelector('.needle');
 let audio = new Audio('http://soundbible.com/mp3/Balloon%20Popping-SoundBible.com-1247261379.mp3');
+let button = document.querySelector('button');
 
 	needle.addEventListener('click', function(){
-
 		setTimeout(() =>{
 			needle.style.left = "70vw";
 		}, 50);
