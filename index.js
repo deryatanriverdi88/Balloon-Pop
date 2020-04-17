@@ -72,11 +72,15 @@ let button = document.querySelector('button');
 			content.style.opacity = "0";
 		}, 300);
 
-		setTimeout(() =>{
+		setTimeout(() => {
 			mainSvg.style.visibility = "visible";
 			secondSvg.style.visibility = "hidden";
 			thirdSvg.style.visibility = "hidden";
-			needle.style.left = "80vw";
 			content.style.opacity = "1";
-		}, 1500);
+			needle.style.left = "80vw";
+		}, 320);
+
+		setTimeout(() =>{
+			button.style.visibility = "visible";
+		}, 1650);
 	});
