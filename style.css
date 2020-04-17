@@ -49,8 +49,8 @@ svg{
 	height: 7px;
 	background: grey;
 	position: absolute;
-	left: 800px;
-	top: 200px;
+	left: 80vw;
+	top: 35vh;
 	border-radius: 0 10px 10px 0;
 }
 
