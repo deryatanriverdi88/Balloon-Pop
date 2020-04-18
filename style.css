@@ -75,7 +75,7 @@ svg{
 	border-radius: 40%;
 	position: absolute;
 	left: 135px;
-	top: 1.5px;
+	top: 2.5px;
 }
 
 button{
@@ -88,5 +88,5 @@ button{
     height: 10vh;
 	border-radius: 10%;
 	box-shadow: -1px -1px 2px inset #aab1b4;
-	font-size: 1rem;
+	font-size: .8rem;
 }
