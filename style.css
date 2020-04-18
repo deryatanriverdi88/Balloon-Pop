@@ -46,7 +46,7 @@ svg{
 
 .needle{
 	width: 150px;
-	height: 7px;
+	height: 8px;
 	background: grey;
 	position: absolute;
 	left: 80vw;
